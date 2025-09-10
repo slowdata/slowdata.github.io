@@ -1,0 +1,86 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* habilita a variante `dark:` no Tailwind v4 (strategy `class`) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Links coerentes web/print */
+.link {
+  color: rgb(2 132 199);
+  text-decoration: underline;
+}
+
+.dark .link {
+  color: rgb(56 189 248);
+}
+
+@media print {
+  .link {
+    color: #0069a8 !important;
+    text-decoration: underline !important;
+  }
+
+  a[href^="http"]::after,
+  a[href^="mailto:"]::after {
+    content: none !important;
+  }
+}
+
+/* Pills estáveis (web/dark/print) */
+.pill {
+  background: #e2e8f0;
+  color: #334155;
+  border-radius: 9999px;
+  padding: .25rem .5rem;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.dark .pill {
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+@media print {
+  .pill {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* Quebras bonitas na impressão */
+.avoid-break {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* Página A4 (sem cabeç./rodapés do browser; ativa em UI de impressão) */
+@page {
+  size: A4;
+  margin: 14mm;
+}
+
+@media print {
+
+  html,
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* fundos claros no papel */
+  body,
+  main,
+  header,
+  section,
+  article {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}

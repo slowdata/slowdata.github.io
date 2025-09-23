@@ -10,7 +10,7 @@ profile: >-
   Profissional da carreira de Especialista de Sistemas e Tecnologias de Informação, com mais de
   15 anos de experiência no desenvolvimento e modernização de aplicações e sistemas na
   Administração Pública (Justiça, Segurança Social e Administração Local). Forte foco em
-  arquitetura de soluções, interoperabilidade, bases de dados e metodologias ágeis, com
+  arquitetura de soluções, interoperabilidade, bases de dados e práticas ágeis de desenvolvimento, com
   compromisso com o serviço público e a melhoria contínua.
 skills:
   - PHP
@@ -27,8 +27,8 @@ skills:
   - Entity Framework
   - SQL Server
   - Dynamics CRM
-  - Agile/Scrum
-  - DevOps (CI/CD)
+  - Agile/Scrum (certificado)
+  - DevOps (CI/CD) (certificado)
 experience:
   - org: PGR — Procuradoria-Geral da República
     role: Especialista de Sistemas e Tecnologias de Informação
@@ -37,7 +37,7 @@ experience:
     bullets:
       - "Manutenção evolutiva e corretiva das principais aplicações (Progest, SIMP) e melhoria de arquitetura com enfoque em segurança e modernização."
       - "Desenvolvimento de ferramentas e serviços com PHP/Laravel, JavaScript, MySQL/MariaDB e Docker."
-      - "Participação no ciclo completo de desenvolvimento: levantamento de requisitos, testes, entrega e suporte."
+      - "Participação no ciclo completo de desenvolvimento: levantamento de requisitos, testes, entrega e suporte, em contexto de práticas ágeis (Scrum)."
     stack: [PHP, Laravel, JavaScript, MySQL, MariaDB, Docker, Git]
 
   - org: Instituto de Informática, I.P.
@@ -75,7 +75,7 @@ training:
     - Oracle 12c — Introdução ao SQL
     - Developing Data Access Solutions (Visual Studio 2010)
   agile:
-    - Scrum Developer (Agile)
+    - Scrum Developer (Agile) — ITEN
     - DevOps Fundamentals — DASA (exame final)
     - Docker Containerization
 education:

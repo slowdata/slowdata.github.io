@@ -174,7 +174,7 @@ onBeforeUnmount(() => {
                         aria-label="Alternar tema"
                         title="Alternar tema"
                     >
-                        {{ theme === "dark" ? "🌙 Dark" : "☀️ Light" }}
+                        {{ theme === "dark" ? "☀️ Light" : "🌙 Dark" }}
                     </button>
                 </div>
             </div>

@@ -3,7 +3,7 @@ name: Ricardo Dias
 title: Especialista de Sistemas e Tecnologias de Informação
 location: Lisboa, PT
 links:
-  email: dias@hey.com
+  email: ricardo@sept.pt
   linkedin: linkedin.com/in/dev-ricardo
   github: github.com/slowdata
 profile: >-
